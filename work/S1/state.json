@@ -1,0 +1,38 @@
+{
+  "screen": "S1",
+  "keyword": "계산기",
+  "current_stage": "DONE",
+  "stage_started_at": {
+    "P1": "2026-10-11T23:11:23",
+    "P2": "2026-10-11T23:13:04",
+    "P3": "2026-10-11T23:18:45",
+    "P4": "2026-10-11T23:26:15",
+    "P5": "2026-10-11T23:29:55"
+  },
+  "fail_count": {
+    "G1": 0,
+    "G2": 0,
+    "G3": 1,
+    "G5": 0
+  },
+  "passed": [
+    "G1",
+    "G2",
+    "G3",
+    "G5"
+  ],
+  "figma_file_key": "1ePLPpyZL72RTJZqUZJqcy",
+  "history": [
+    {
+      "gate": "G3",
+      "result": "반려",
+      "archive": "work/S1/_archive/1"
+    },
+    {
+      "gate": "G3",
+      "result": "승인",
+      "utterance": "좋아"
+    }
+  ],
+  "completed_at": "2026-10-11T23:31:28"
+}

@@ -1,0 +1,33 @@
+{
+  "screen": "S2",
+  "keyword": "영수증",
+  "current_stage": "DONE",
+  "stage_started_at": {
+    "P1": "2026-10-11T23:32:29",
+    "P2": "2026-10-11T23:33:34",
+    "P3": "2026-10-11T23:35:58",
+    "P4": "2026-10-11T23:38:55",
+    "P5": "2026-10-11T23:41:40"
+  },
+  "fail_count": {
+    "G1": 0,
+    "G2": 0,
+    "G3": 0,
+    "G5": 0
+  },
+  "passed": [
+    "G1",
+    "G2",
+    "G3",
+    "G5"
+  ],
+  "history": [
+    {
+      "gate": "G3",
+      "result": "승인",
+      "utterance": "승인"
+    }
+  ],
+  "figma_file_key": "1ePLPpyZL72RTJZqUZJqcy",
+  "completed_at": "2026-10-11T23:43:04"
+}

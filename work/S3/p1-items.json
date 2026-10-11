@@ -1,0 +1,7 @@
+[
+  {"source_url": "https://uibowl.io/name/%ED%8E%98%EC%9D%B4%EC%9B%8C%ED%81%AC?patterns=%EB%82%B4%EC%97%AD&imgId=cmtzo504k000ckt04unvtwz33", "story": "U5", "kind": "아카이브", "content": "주별·월별 보기에서 목록 위에 기간 요약 영역을 고정해 기간 이름, 영수증 장수, TOTAL 합계(₩, JetBrains Mono, 우측 정렬)를 영수증 하단 합계 줄처럼 보여준다."},
+  {"source_url": "https://uibowl.io/name/%ED%8D%BC%EA%B7%B8%EC%83%B5?patterns=%EB%82%B4%EC%97%AD&patternName=%EB%AF%B8%EC%85%98%20%EC%A7%84%ED%96%89%20%ED%98%84%ED%99%A9%20%EB%B3%B4%EA%B8%B0", "story": "U5", "kind": "레이아웃", "content": "화면 상단에 '일·주·월' 알약형 세그먼트 탭 3개를 가로로 두고 선택된 탭만 채워 표시해, 시트나 팝업 없이 같은 화면에서 보기 단위를 전환한다."},
+  {"source_url": "https://uibowl.io/name/%EB%A7%88%EC%9D%B4%EB%A6%AC%EC%96%BC%ED%8A%B8%EB%A6%BD?patterns=%EB%82%B4%EC%97%AD&patternName=%EC%98%88%EC%A0%95%EB%90%9C%20%EC%97%AC%ED%96%89%20-%20%ED%95%9C%EC%9D%B8%EB%AF%BC%EB%B0%95", "story": "U4", "kind": "영수증 표현", "content": "일별 보기는 왼쪽 세로선에 날짜 라벨을 달고 그 오른쪽에 S2와 같은 감열지 영수증(cally·날짜·건별 줄·TOTAL·절취선)을 날짜순으로 한 장씩 쌓아, 수정·삭제 버튼 없이 읽기 전용으로 보여준다."},
+  {"source_url": "https://uibowl.io/name/%ED%86%A0%EC%8A%A4%EC%A6%9D%EA%B6%8C?patterns=%EB%82%B4%EC%97%AD&patternName=%EA%B1%B0%EB%9E%98%EB%82%B4%EC%97%AD", "story": "U4", "kind": "아카이브", "content": "주별·월별 보기의 목록은 하루 영수증 1장을 한 줄로 접어 '10.06 월 · 5건 · ₩금액(우측 정렬)' 형태의 날짜·건수·금액 3열 행으로 나열한다."},
+  {"source_url": "https://uibowl.io/name/Kia?patterns=%EB%82%B4%EC%97%AD&patternName=%EC%86%8C%EB%B9%84%EB%82%B4%EC%97%AD", "story": "U5", "kind": "레이아웃", "content": "탭 아래 중앙에 ◀ 기간 ▶ 화살표 이동을 두고 주별은 월요일 시작 범위('10.06 월 – 10.12 일'), 월별은 '2026년 10월'로 표기해 이전·다음 기간으로 넘긴다."}
+]

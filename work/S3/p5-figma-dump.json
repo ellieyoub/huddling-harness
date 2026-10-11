@@ -1,0 +1,1378 @@
+{
+  "page": "P4-screens",
+  "frames": [
+    {
+      "id": "20:56",
+      "name": "S3-final",
+      "page": "P4-screens",
+      "width": 390,
+      "height": 844,
+      "nodes": [
+        {
+          "id": "20:56",
+          "name": "S3-final",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#f7f7f4"
+            }
+          ],
+          "strokes": [],
+          "itemSpacing": 0,
+          "paddingLeft": 24,
+          "paddingRight": 24,
+          "paddingTop": 48,
+          "paddingBottom": 32
+        },
+        {
+          "id": "20:57",
+          "name": "top",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 24,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "20:58",
+          "name": "printer",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "20:59",
+          "name": "printer/brand",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "cornerRadii": [
+            16,
+            16,
+            0,
+            0
+          ],
+          "itemSpacing": 0,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "20:60",
+          "name": "cally",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#f54e00"
+            }
+          ],
+          "strokes": [],
+          "characters": "cally",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "20:61",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "RECEIPT ARCHIVE",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:62",
+          "name": "printer/case",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#e6e5e0"
+            }
+          ],
+          "strokes": [],
+          "cornerRadii": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "itemSpacing": 0,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 8,
+          "paddingBottom": 8
+        },
+        {
+          "id": "20:63",
+          "name": "printer/display",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "cornerRadius": 6,
+          "itemSpacing": 0,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "20:64",
+          "name": "vfd",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#9fc9a2"
+            }
+          ],
+          "strokes": [],
+          "characters": "ARCHIVE · WEEK",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:65",
+          "name": "body",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 16,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "20:66",
+          "name": "tabs",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#e6e5e0"
+            }
+          ],
+          "strokes": [],
+          "cornerRadius": 9999,
+          "itemSpacing": 4,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 4,
+          "paddingBottom": 4
+        },
+        {
+          "id": "20:67",
+          "name": "tab/day",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "cornerRadius": 9999,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I20:67;19:16",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "일별",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "20:69",
+          "name": "tab/week",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "cornerRadius": 9999,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I20:69;19:14",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [],
+          "characters": "주별",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "20:71",
+          "name": "tab/month",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "cornerRadius": 9999,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I20:71;19:16",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "월별",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "20:73",
+          "name": "period",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "20:74",
+          "name": "period/prev",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ],
+          "cornerRadius": 9999,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I20:74;19:19",
+          "name": "glyph",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "◀",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:76",
+          "name": "period/title",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "20:77",
+          "name": "period/year",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "2026",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:78",
+          "name": "period/label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "10.05 월 – 10.11 일",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:79",
+          "name": "period/next",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#e6e5e0"
+            }
+          ],
+          "cornerRadius": 9999,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I20:79;19:21",
+          "name": "glyph",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "▶",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:81",
+          "name": "summary",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#e6e5e0"
+            }
+          ],
+          "itemSpacing": 12,
+          "paddingLeft": 24,
+          "paddingRight": 24,
+          "paddingTop": 16,
+          "paddingBottom": 16
+        },
+        {
+          "id": "20:82",
+          "name": "summary/name",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "20:83",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "WEEKLY RECEIPT",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:84",
+          "name": "value",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "MON – SUN",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:85",
+          "name": "summary/count",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "20:86",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "영수증",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "20:87",
+          "name": "value",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "6장 · 27건",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:88",
+          "name": "summary/divider",
+          "type": "LINE",
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ]
+        },
+        {
+          "id": "20:89",
+          "name": "summary/total",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "20:90",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "TOTAL",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:91",
+          "name": "sum",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩174,200",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:92",
+          "name": "list",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 8,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "20:93",
+          "name": "archive",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#e6e5e0"
+            }
+          ],
+          "itemSpacing": 0,
+          "paddingLeft": 24,
+          "paddingRight": 24,
+          "paddingTop": 16,
+          "paddingBottom": 16
+        },
+        {
+          "id": "20:94",
+          "name": "archive/columns",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 8
+        },
+        {
+          "id": "20:95",
+          "name": "date",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "DATE",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:96",
+          "name": "count",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "COUNT",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:97",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "AMOUNT",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:98",
+          "name": "chevron-space",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": []
+        },
+        {
+          "id": "20:99",
+          "name": "archive/divider-top",
+          "type": "LINE",
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ]
+        },
+        {
+          "id": "20:100",
+          "name": "archive/rows",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 12
+        },
+        {
+          "id": "20:101",
+          "name": "archive/row-1",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 8,
+          "paddingBottom": 8
+        },
+        {
+          "id": "I20:101;19:3",
+          "name": "date",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "10.11 일",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:101;19:4",
+          "name": "count",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "6건",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:101;19:5",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩38,650",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:101;19:6",
+          "name": "chevron",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "›",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:106",
+          "name": "archive/divider-1",
+          "type": "LINE",
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#e6e5e0"
+            }
+          ]
+        },
+        {
+          "id": "20:107",
+          "name": "archive/row-2",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 8,
+          "paddingBottom": 8
+        },
+        {
+          "id": "I20:107;19:3",
+          "name": "date",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "10.10 토",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:107;19:4",
+          "name": "count",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "4건",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:107;19:5",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩52,300",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:107;19:6",
+          "name": "chevron",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "›",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:112",
+          "name": "archive/divider-2",
+          "type": "LINE",
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#e6e5e0"
+            }
+          ]
+        },
+        {
+          "id": "20:113",
+          "name": "archive/row-3",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 8,
+          "paddingBottom": 8
+        },
+        {
+          "id": "I20:113;19:3",
+          "name": "date",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "10.09 금",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:113;19:4",
+          "name": "count",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "5건",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:113;19:5",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩27,400",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:113;19:6",
+          "name": "chevron",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "›",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:118",
+          "name": "archive/divider-3",
+          "type": "LINE",
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#e6e5e0"
+            }
+          ]
+        },
+        {
+          "id": "20:119",
+          "name": "archive/row-4",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 8,
+          "paddingBottom": 8
+        },
+        {
+          "id": "I20:119;19:8",
+          "name": "date",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "10.08 목",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:119;19:9",
+          "name": "count",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "0건",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:119;19:10",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩0",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:119;19:11",
+          "name": "chevron-space",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": []
+        },
+        {
+          "id": "20:124",
+          "name": "archive/divider-4",
+          "type": "LINE",
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#e6e5e0"
+            }
+          ]
+        },
+        {
+          "id": "20:125",
+          "name": "archive/row-5",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 8,
+          "paddingBottom": 8
+        },
+        {
+          "id": "I20:125;19:3",
+          "name": "date",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "10.07 수",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:125;19:4",
+          "name": "count",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "3건",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:125;19:5",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩14,800",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:125;19:6",
+          "name": "chevron",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "›",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:130",
+          "name": "archive/divider-5",
+          "type": "LINE",
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#e6e5e0"
+            }
+          ]
+        },
+        {
+          "id": "20:131",
+          "name": "archive/row-6",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 8,
+          "paddingBottom": 8
+        },
+        {
+          "id": "I20:131;19:3",
+          "name": "date",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "10.06 화",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:131;19:4",
+          "name": "count",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "4건",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:131;19:5",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩21,350",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:131;19:6",
+          "name": "chevron",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "›",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:136",
+          "name": "archive/divider-6",
+          "type": "LINE",
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#e6e5e0"
+            }
+          ]
+        },
+        {
+          "id": "20:137",
+          "name": "archive/row-7",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 8,
+          "paddingBottom": 8
+        },
+        {
+          "id": "I20:137;19:3",
+          "name": "date",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "10.05 월",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:137;19:4",
+          "name": "count",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "5건",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:137;19:5",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩19,700",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I20:137;19:6",
+          "name": "chevron",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "›",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "20:142",
+          "name": "archive/cut-line",
+          "type": "LINE",
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ]
+        },
+        {
+          "id": "20:143",
+          "name": "caption",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "날짜를 누르면 그날 영수증을 볼 수 있어요",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "20:144",
+          "name": "nav",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "20:145",
+          "name": "nav/home",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "cornerRadius": 12,
+          "itemSpacing": 0,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I20:145;14:12",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [],
+          "characters": "계산기로",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "screen": "S3",
+  "keyword": "아카이브",
+  "current_stage": "DONE",
+  "stage_started_at": {
+    "P1": "2026-10-11T23:43:04",
+    "P2": "2026-10-11T23:44:22",
+    "P3": "2026-10-11T23:48:02",
+    "P4": "2026-10-11T23:51:18",
+    "P5": "2026-10-11T23:54:44"
+  },
+  "fail_count": {
+    "G1": 0,
+    "G2": 0,
+    "G3": 0,
+    "G5": 0
+  },
+  "passed": [
+    "G1",
+    "G2",
+    "G3",
+    "G5"
+  ],
+  "history": [
+    {
+      "gate": "G3",
+      "result": "승인",
+      "utterance": "s3승인"
+    }
+  ],
+  "figma_file_key": "1ePLPpyZL72RTJZqUZJqcy",
+  "completed_at": "2026-10-11T23:56:18"
+}

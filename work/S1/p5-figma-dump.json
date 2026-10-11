@@ -1,0 +1,1390 @@
+{
+  "page": "P4-screens",
+  "frames": [
+    {
+      "id": "10:104",
+      "name": "S1-final",
+      "page": "P4-screens",
+      "width": 390,
+      "height": 844,
+      "nodes": [
+        {
+          "id": "10:104",
+          "name": "S1-final",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#f7f7f4"
+            }
+          ],
+          "strokes": []
+        },
+        {
+          "id": "10:105",
+          "name": "body",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#e6e5e0"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ],
+          "cornerRadius": 16
+        },
+        {
+          "id": "10:106",
+          "name": "header",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "cornerRadius": 4,
+          "itemSpacing": 8,
+          "paddingLeft": 12,
+          "paddingRight": 12,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "10:107",
+          "name": "header/logo",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#f54e00"
+            }
+          ],
+          "strokes": [],
+          "characters": "cally",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "10:108",
+          "name": "header/sub",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ],
+          "strokes": [],
+          "characters": "ELECTRONIC LEDGER",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:109",
+          "name": "spacer",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": []
+        },
+        {
+          "id": "10:110",
+          "name": "header/date",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "2026.10.11 SUN",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:111",
+          "name": "display",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#5a5852"
+            }
+          ],
+          "strokes": [],
+          "cornerRadius": 12,
+          "itemSpacing": 0,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+          "paddingBottom": 8
+        },
+        {
+          "id": "10:112",
+          "name": "display/window",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "cornerRadius": 8,
+          "itemSpacing": 8,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 12,
+          "paddingBottom": 12
+        },
+        {
+          "id": "10:237",
+          "name": "input/item",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#9fc9a2"
+            }
+          ],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 8
+        },
+        {
+          "id": "I10:237;10:97",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#9fc9a2"
+            }
+          ],
+          "strokes": [],
+          "characters": "ITEM",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I10:237;10:98",
+          "name": "value",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#9fc9a2"
+            }
+          ],
+          "strokes": [],
+          "characters": "붕어빵",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "10:240",
+          "name": "input/amount",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I10:240;10:101",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#9fc9a2"
+            }
+          ],
+          "strokes": [],
+          "characters": "AMT",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I10:240;10:102",
+          "name": "value",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#9fc9a2"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩3,000",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:119",
+          "name": "keypad",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "cornerRadius": 12,
+          "itemSpacing": 12,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "paddingBottom": 16
+        },
+        {
+          "id": "10:120",
+          "name": "keypad/digits",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "10:121",
+          "name": "keypad/row",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "10:187",
+          "name": "key/7",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ],
+          "cornerRadius": 8,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 4
+        },
+        {
+          "id": "I10:187;10:79",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "7",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:189",
+          "name": "key/8",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ],
+          "cornerRadius": 8,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 4
+        },
+        {
+          "id": "I10:189;10:79",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "8",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:191",
+          "name": "key/9",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ],
+          "cornerRadius": 8,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 4
+        },
+        {
+          "id": "I10:191;10:79",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "9",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:128",
+          "name": "keypad/row",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "10:193",
+          "name": "key/4",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ],
+          "cornerRadius": 8,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 4
+        },
+        {
+          "id": "I10:193;10:79",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "4",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:195",
+          "name": "key/5",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ],
+          "cornerRadius": 8,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 4
+        },
+        {
+          "id": "I10:195;10:79",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "5",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:197",
+          "name": "key/6",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ],
+          "cornerRadius": 8,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 4
+        },
+        {
+          "id": "I10:197;10:79",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "6",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:135",
+          "name": "keypad/row",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "10:199",
+          "name": "key/1",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ],
+          "cornerRadius": 8,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 4
+        },
+        {
+          "id": "I10:199;10:79",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "1",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:201",
+          "name": "key/2",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ],
+          "cornerRadius": 8,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 4
+        },
+        {
+          "id": "I10:201;10:79",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "2",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:203",
+          "name": "key/3",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ],
+          "cornerRadius": 8,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 4
+        },
+        {
+          "id": "I10:203;10:79",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "3",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:142",
+          "name": "keypad/row",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "10:205",
+          "name": "key/00",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ],
+          "cornerRadius": 8,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 4
+        },
+        {
+          "id": "I10:205;10:79",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "00",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:207",
+          "name": "key/0",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ],
+          "cornerRadius": 8,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 4
+        },
+        {
+          "id": "I10:207;10:79",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "0",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:209",
+          "name": "key/000",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ],
+          "cornerRadius": 8,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 4
+        },
+        {
+          "id": "I10:209;10:79",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "000",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:149",
+          "name": "keypad/func",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "10:211",
+          "name": "key/C",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#cf2d56"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#5a5852"
+            }
+          ],
+          "cornerRadius": 8,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 4
+        },
+        {
+          "id": "I10:211;10:82",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [],
+          "characters": "C",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:213",
+          "name": "key/back",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#5a5852"
+            }
+          ],
+          "cornerRadius": 8,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 4
+        },
+        {
+          "id": "I10:213;10:85",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [],
+          "characters": "←",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:215",
+          "name": "key/=",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#f54e00"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#d04200"
+            }
+          ],
+          "cornerRadius": 8,
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 4
+        },
+        {
+          "id": "I10:215;10:89",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [],
+          "characters": "=",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:156",
+          "name": "tape",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#e6e5e0"
+            }
+          ],
+          "itemSpacing": 8,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 32,
+          "paddingBottom": 24
+        },
+        {
+          "id": "10:157",
+          "name": "tape/head",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 8,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "10:158",
+          "name": "tape/title",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "오늘의 테이프",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "10:159",
+          "name": "tape/no",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "NO.0006",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:217",
+          "name": "tape/row-1",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I10:217;10:92",
+          "name": "time",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "08:41",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I10:217;10:93",
+          "name": "name",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#5a5852"
+            }
+          ],
+          "strokes": [],
+          "characters": "지하철",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "I10:217;10:94",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩1,550",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:221",
+          "name": "tape/row-2",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I10:221;10:92",
+          "name": "time",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "12:20",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I10:221;10:93",
+          "name": "name",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#5a5852"
+            }
+          ],
+          "strokes": [],
+          "characters": "김치찌개",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "I10:221;10:94",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩9,000",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:225",
+          "name": "tape/row-3",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I10:225;10:92",
+          "name": "time",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "13:05",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I10:225;10:93",
+          "name": "name",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#5a5852"
+            }
+          ],
+          "strokes": [],
+          "characters": "편의점 생수",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "I10:225;10:94",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩1,200",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:229",
+          "name": "tape/row-4",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I10:229;10:92",
+          "name": "time",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "15:47",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I10:229;10:93",
+          "name": "name",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#5a5852"
+            }
+          ],
+          "strokes": [],
+          "characters": "다이소 수납함",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "I10:229;10:94",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩5,000",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:233",
+          "name": "tape/row-5",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I10:233;10:92",
+          "name": "time",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "19:32",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I10:233;10:93",
+          "name": "name",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#5a5852"
+            }
+          ],
+          "strokes": [],
+          "characters": "올리브영 선크림",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "I10:233;10:94",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩18,900",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:180",
+          "name": "tape/divider",
+          "type": "LINE",
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ]
+        },
+        {
+          "id": "10:181",
+          "name": "tape/total",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 8,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "10:182",
+          "name": "count",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "5건",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "10:183",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "TOTAL",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:184",
+          "name": "sum",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩35,650",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "10:185",
+          "name": "body/slot",
+          "type": "RECTANGLE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "cornerRadius": 4
+        },
+        {
+          "id": "10:186",
+          "name": "tape/roll",
+          "type": "RECTANGLE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ],
+          "cornerRadius": 9999
+        }
+      ]
+    }
+  ]
+}

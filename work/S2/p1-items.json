@@ -1,0 +1,7 @@
+[
+  {"source_url": "https://uibowl.io/name/%EB%A9%94%EA%B0%80MCG%EC%BB%A4%ED%94%BC?patterns=%EB%82%B4%EC%97%AD&imgId=cmt6mdks1000wi804ak47n215", "story": "U3", "kind": "영수증 표현", "content": "영수증 상단에 앱 이름 'cally'를 로고처럼 중앙 크게 찍고 그 아래 날짜를 작은 글씨로 두는 POS 영수증 헤더 순서를 S2 감열지 영수증 상단에 그대로 적용한다."},
+  {"source_url": "https://uibowl.io/name/%ED%86%A0%EC%8A%A4%EC%A6%9D%EA%B6%8C?patterns=%EB%82%B4%EC%97%AD&patternName=%EA%B1%B0%EB%9E%98%EB%82%B4%EC%97%AD", "story": "U3", "kind": "레이아웃", "content": "건별 행을 [시각(좌) · 물품명(가운데) · 금액(우측 정렬)] 3열 한 줄로 구성하고 금액 열을 모노스페이스 우측 정렬로 맞춰 영수증 품목 줄처럼 보이게 한다."},
+  {"source_url": "https://uibowl.io/name/%EB%B9%BD%EB%8B%A4%EB%B0%A9?patterns=%EB%82%B4%EC%97%AD&patternName=%EC%A0%84%EC%9E%90%EC%98%81%EC%88%98%EC%A6%9D", "story": "U3", "kind": "영수증 표현", "content": "품목 목록 아래에 '건수 N건'을 좌측, 금액 합을 우측에 두는 요약 한 줄을 넣어 TOTAL 직전 건수를 표기한다."},
+  {"source_url": "https://uibowl.io/name/%EB%9D%BC%EC%9A%B4%EC%A6%88?patterns=%EB%82%B4%EC%97%AD&imgId=cmunlxssr006rl304u1751kk3", "story": "U3", "kind": "영수증 표현", "content": "건수 줄 아래 구분선을 두고 'TOTAL'과 합계 금액을 품목보다 크고 굵은 모노스페이스로 표기해 영수증의 최종 합계로 분리한다."},
+  {"source_url": "https://uibowl.io/name/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%EC%8A%A4?patterns=%EB%82%B4%EC%97%AD&imgId=cmnqtxzr702m2kz04yrfozzfs", "story": "U3", "kind": "아카이브", "content": "출력된 영수증은 읽기 전용 문서처럼 라벨–값 행과 합계만 보여주고 수정·삭제 컨트롤을 두지 않으며, 하단은 점선 절취선으로 마무리해 '확정·보관됨'을 표현한다."}
+]

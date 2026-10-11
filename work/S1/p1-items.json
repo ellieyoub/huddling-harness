@@ -1,0 +1,32 @@
+[
+  {
+    "source_url": "https://uibowl.io/name/%ED%95%98%EB%82%98%EC%9B%90%ED%81%90?patterns=%EA%B3%84%EC%A2%8C&imgId=cmsehk2wc000fih04qt3824nl",
+    "story": "U1",
+    "kind": "입력 방식",
+    "content": "하단 고정 3열 숫자 키패드의 '완료' 자리를 강조색 원형 '=' 키로 바꿔, 금액을 누르고 '='를 치면 별도 확인 없이 바로 기록되게 한다"
+  },
+  {
+    "source_url": "https://uibowl.io/name/%ED%95%98%EB%82%98%EC%9B%90%ED%81%90?patterns=%EA%B3%84%EC%A2%8C&imgId=cmsehk2wc000fih04qt3824nl",
+    "story": "U1",
+    "kind": "레이아웃",
+    "content": "화면을 상단 표시부(오늘의 테이프 + 입력 중인 물품명·금액 표시창)와 하단 절반 키패드로 나누는 상하 2분할 구조를 계산기 본체 형태로 채택한다"
+  },
+  {
+    "source_url": "https://uibowl.io/name/%EC%95%84%EC%9D%B4%EC%BF%A0%EC%B9%B4?patterns=%EA%B3%84%EC%A2%8C&imgId=cmp0szkfv000yl204tx1mv221",
+    "story": "U1",
+    "kind": "입력 방식",
+    "content": "물품명 필드와 금액 표시를 한 화면 표시창에 위아래로 함께 두어, 물품명 입력 후 화면 전환·팝업 없이 곧바로 키패드 금액 입력으로 이어지게 한다"
+  },
+  {
+    "source_url": "https://uibowl.io/name/%EB%9F%B0%EB%93%9C%EB%A6%AC%EA%B3%A0?patterns=%ED%83%90%EC%83%89&patternName=%EC%84%B8%ED%83%81%EB%B9%84%20%EA%B3%84%EC%82%B0%EA%B8%B0",
+    "story": "U1",
+    "kind": "영수증 표현",
+    "content": "품목명·가격 한 줄 리스트와 하단 고정 합계 바처럼, 오늘의 테이프를 [물품명 · 우측 정렬 금액] 행으로 쌓고 테이프 끝에 오늘 TOTAL을 모노스페이스로 고정 표시한다"
+  },
+  {
+    "source_url": "https://uibowl.io/name/%ED%8E%98%EC%9D%B4%EC%9B%8C%ED%81%AC?patterns=%EB%82%B4%EC%97%AD&imgId=cmtzo504k000ckt04unvtwz33",
+    "story": "U2",
+    "kind": "레이아웃",
+    "content": "건별 카드에 날짜·이름·금액을 묶어 보여주는 방식을 참고해, 테이프 각 행을 [시각 · 물품명 · 금액] 한 줄 단위로 만들고 행을 탭하면 마감 전 수정·삭제가 가능하게 한다"
+  }
+]

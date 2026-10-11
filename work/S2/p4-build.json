@@ -1,0 +1,7 @@
+{
+  "fileKey": "1ePLPpyZL72RTJZqUZJqcy",
+  "tokens": ["VariableCollectionId:10:5", "10:2", "10:31", "VariableID:14:2", "VariableID:14:3", "VariableID:14:4"],
+  "components": ["14:5", "14:9", "14:11"],
+  "screen": "14:47",
+  "pages": {"P4-tokens": "10:2", "P4-components": "10:3", "P4-screens": "10:4"}
+}

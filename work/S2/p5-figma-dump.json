@@ -1,0 +1,1013 @@
+{
+  "page": "P4-screens",
+  "frames": [
+    {
+      "id": "14:47",
+      "name": "S2-final",
+      "page": "P4-screens",
+      "width": 390,
+      "height": 844,
+      "nodes": [
+        {
+          "id": "14:47",
+          "name": "S2-final",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#f7f7f4"
+            }
+          ],
+          "strokes": [],
+          "itemSpacing": 24,
+          "paddingLeft": 24,
+          "paddingRight": 24,
+          "paddingTop": 48,
+          "paddingBottom": 32
+        },
+        {
+          "id": "14:48",
+          "name": "printout",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "14:49",
+          "name": "printer",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#e6e5e0"
+            }
+          ],
+          "strokes": [],
+          "cornerRadii": [
+            16,
+            16,
+            0,
+            0
+          ],
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "14:50",
+          "name": "printer/brand",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "cornerRadii": [
+            16,
+            16,
+            0,
+            0
+          ],
+          "itemSpacing": 0,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "14:51",
+          "name": "cally",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#f54e00"
+            }
+          ],
+          "strokes": [],
+          "characters": "cally",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "14:52",
+          "name": "ledger",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "ELECTRONIC LEDGER",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "14:53",
+          "name": "printer/case",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 8,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 8,
+          "paddingBottom": 0
+        },
+        {
+          "id": "14:54",
+          "name": "printer/display",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "cornerRadius": 6,
+          "itemSpacing": 0,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "14:55",
+          "name": "vfd",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#9fc9a2"
+            }
+          ],
+          "strokes": [],
+          "characters": "END OF DAY  00:00",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "14:56",
+          "name": "printer/slot",
+          "type": "RECTANGLE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "cornerRadius": 4
+        },
+        {
+          "id": "14:57",
+          "name": "receipt",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#e6e5e0"
+            }
+          ],
+          "itemSpacing": 12,
+          "paddingLeft": 24,
+          "paddingRight": 24,
+          "paddingTop": 24,
+          "paddingBottom": 16
+        },
+        {
+          "id": "14:58",
+          "name": "receipt/header",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "14:59",
+          "name": "receipt/logo",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "cally",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "14:60",
+          "name": "receipt/subtitle",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "DAILY RECEIPT",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "14:61",
+          "name": "receipt/meta",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 4,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 4
+        },
+        {
+          "id": "14:62",
+          "name": "receipt/date",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "2026.10.11 SUN",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "14:63",
+          "name": "receipt/closed-at",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "CLOSED 00:00 · AUTO PRINT",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "14:64",
+          "name": "receipt/divider-top",
+          "type": "LINE",
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ]
+        },
+        {
+          "id": "14:65",
+          "name": "receipt/items",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 8,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "14:66",
+          "name": "receipt/columns",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "14:67",
+          "name": "time",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "TIME",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "14:68",
+          "name": "name",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "ITEM",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "14:69",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#a09c92"
+            }
+          ],
+          "strokes": [],
+          "characters": "AMOUNT",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "14:70",
+          "name": "receipt/rows",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 8,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "14:113",
+          "name": "receipt/row-1",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I14:113;14:6",
+          "name": "time",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "08:41",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I14:113;14:7",
+          "name": "name",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#5a5852"
+            }
+          ],
+          "strokes": [],
+          "characters": "지하철",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "I14:113;14:8",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩1,550",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "14:117",
+          "name": "receipt/row-2",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I14:117;14:6",
+          "name": "time",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "12:20",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I14:117;14:7",
+          "name": "name",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#5a5852"
+            }
+          ],
+          "strokes": [],
+          "characters": "김치찌개",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "I14:117;14:8",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩9,000",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "14:121",
+          "name": "receipt/row-3",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I14:121;14:6",
+          "name": "time",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "13:05",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I14:121;14:7",
+          "name": "name",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#5a5852"
+            }
+          ],
+          "strokes": [],
+          "characters": "편의점 생수",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "I14:121;14:8",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩1,200",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "14:125",
+          "name": "receipt/row-4",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I14:125;14:6",
+          "name": "time",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "15:47",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I14:125;14:7",
+          "name": "name",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#5a5852"
+            }
+          ],
+          "strokes": [],
+          "characters": "다이소 수납함",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "I14:125;14:8",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩5,000",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "14:129",
+          "name": "receipt/row-5",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I14:129;14:6",
+          "name": "time",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "19:32",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I14:129;14:7",
+          "name": "name",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#5a5852"
+            }
+          ],
+          "strokes": [],
+          "characters": "올리브영 선크림",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "I14:129;14:8",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩18,900",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "14:133",
+          "name": "receipt/row-6",
+          "type": "INSTANCE",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I14:133;14:6",
+          "name": "time",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "20:15",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "I14:133;14:7",
+          "name": "name",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#5a5852"
+            }
+          ],
+          "strokes": [],
+          "characters": "붕어빵",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "I14:133;14:8",
+          "name": "price",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩3,000",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "14:95",
+          "name": "receipt/divider-items",
+          "type": "LINE",
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ]
+        },
+        {
+          "id": "14:96",
+          "name": "receipt/count",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "14:97",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "건수",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "14:98",
+          "name": "value",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "6건",
+          "fontFamilies": [
+            "JetBrains Mono",
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "14:99",
+          "name": "receipt/divider-total",
+          "type": "LINE",
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ]
+        },
+        {
+          "id": "14:100",
+          "name": "receipt/total",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "14:101",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "TOTAL",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "14:102",
+          "name": "sum",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "₩38,650",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ]
+        },
+        {
+          "id": "14:103",
+          "name": "receipt/end",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 24,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 12,
+          "paddingBottom": 0
+        },
+        {
+          "id": "14:104",
+          "name": "receipt/footer",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "PRINTED · 출력 완료",
+          "fontFamilies": [
+            "JetBrains Mono",
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "14:105",
+          "name": "receipt/cut-line",
+          "type": "LINE",
+          "fills": [],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ]
+        },
+        {
+          "id": "14:106",
+          "name": "caption",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#807d72"
+            }
+          ],
+          "strokes": [],
+          "characters": "00:00에 자동 마감되어 아카이브에 보관됐어요",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "14:107",
+          "name": "spacer",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "14:108",
+          "name": "nav",
+          "type": "FRAME",
+          "fills": [],
+          "strokes": [],
+          "itemSpacing": 12,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "14:137",
+          "name": "nav/home",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ],
+          "cornerRadius": 12,
+          "itemSpacing": 0,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I14:137;14:10",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "characters": "계산기로",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        },
+        {
+          "id": "14:139",
+          "name": "nav/archive",
+          "type": "INSTANCE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ],
+          "strokes": [],
+          "cornerRadius": 12,
+          "itemSpacing": 0,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        {
+          "id": "I14:139;14:12",
+          "name": "label",
+          "type": "TEXT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#ffffff"
+            }
+          ],
+          "strokes": [],
+          "characters": "아카이브 보기",
+          "fontFamilies": [
+            "Pretendard"
+          ]
+        }
+      ]
+    }
+  ]
+}
