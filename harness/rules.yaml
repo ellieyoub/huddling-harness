@@ -1,0 +1,85 @@
+# rules.yaml — 하네스 규칙 SSOT
+# 숫자·판정 방식은 이 파일만 고친다. 색·모서리·간격은 design.md를 참조만 한다.
+# 게이트 실행: python harness/scripts/gate.py <G1|G2|G3|G5> work/S{n} [--page TEST]
+
+tokens_from: docs/design.md   # YAML 앞부분의 colors / rounded / spacing
+
+retry_limit: 3                # 같은 게이트 3번 실패 → 멈추고 본인에게 묻기
+
+gates:
+  G1:                         # P1 → P2
+    files: [p1-references.json, p1-items.json]
+    references_min: 5
+    references_url_domain: uibowl.io
+    items_min: 3
+    item_required_fields: [source_url, story, kind, content]
+    source_url_in_references: true
+    story_allowed: [U1, U2, U3, U4, U5]
+    kind_allowed: [레이아웃, 입력 방식, 영수증 표현, 아카이브]
+    on_fail: P1
+
+  G2:                         # P2 → P3
+    files: [p2-spec.md]
+    required_headings:
+      - "## 대상 유저스토리"
+      - "## 구성 요소"
+      - "## 반영 항목"
+      - "## 금지 확인"
+    on_fail: P2
+
+  G3:                         # P3 → P4 (사람 승인, 유일)
+    files: [p3-approval.json]
+    writer: orchestrator_on_user_utterance
+    pass_if:
+      approved: true
+      utterance_not_empty: true   # 사용자 발화 원문이 기록돼 있어야 함
+    on_fail: P3               # comment를 designer에게 전달
+
+  G5:                         # P5 → 완료
+    input: p5-figma-dump.json
+    output: p5-review.json
+    scope: "S{current}-final" # 이번 실행 화면의 프레임만
+    frame_size: { width: 390, height: 844 }
+    design_values:            # 노드의 값이 아래 목록에 있어야 함
+      fill_stroke_hex:
+        from: colors
+        compare: "Figma RGB(0~1) → #rrggbb 소문자. 불투명도는 무시"
+      corner_radius:
+        from: rounded
+      gap_padding:
+        from: spacing
+        also_allow: [0]       # Figma 기본값. design.md 컴포넌트의 개별 padding은 허용 안 함
+    font_family_allowed:      # design.md 서체에 한글이 없어 예외로 고정 (PRD §7)
+      - Pretendard            # 기본
+      - JetBrains Mono        # 숫자·영수증
+    n_rules: [N1, N2]         # ★ story-service.md "어기면 안 되는 것"
+    violations_max: 0
+    on_fail:
+      design_values_only: P4
+      n_rule_any: P3
+
+# ★ story-service.md의 "어기면 안 되는 것" — 이번 실행 화면에 해당할 때만 적용
+n_rules:
+  N1:                         # 기록까지 입력 단계 ≤ 2
+    applies_to: S1
+    must_have_layers: [input/item, input/amount]
+    forbidden_layer_name_segments: [modal, popup, sheet, select, dropdown]
+    max_layers_matching: { pattern: "input/*", max: 2 }
+  N2:                         # 출력된 영수증 변경 불가
+    applies_to: [S2, S3]
+    forbidden_layer_name_segments: [edit, delete]   # '/'·'-'·'_'로 나눈 조각 단위로 비교
+    forbidden_text: [수정, 삭제, 편집]
+
+figma:
+  file_name: cally-design
+  pages: [P3-concept, P4-tokens, P4-components, P4-screens]
+  test_page: TEST
+  frame_name_pattern: "^S[1-3]-(concept|final)$"
+
+scope_check:                  # 단계마다 범위 밖 파일이 바뀌었는지 사후 검사
+  P1: ["p1-*"]
+  P2: ["p2-*"]
+  P3: ["p3-concept.json"]
+  P4: ["p4-*"]
+  P5: ["p5-figma-dump.json"]
+  always_allowed: [state.json, p3-approval.json, p5-review.json, _archive/**]   # 오케스트레이터·gate.py

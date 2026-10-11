@@ -1,0 +1,8 @@
+{
+  "desc": "S1 규칙 모두 지킴 (N1 통과 포함)",
+  "gate": "G5",
+  "workdir": "S1",
+  "args": [],
+  "pass": true,
+  "return_to": null
+}

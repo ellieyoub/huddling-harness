@@ -1,0 +1,39 @@
+{
+  "page": "TEST",
+  "frames": [
+    {
+      "id": "2:3",
+      "name": "test-frame",
+      "page": "TEST",
+      "width": 390,
+      "height": 844,
+      "nodes": [
+        {
+          "id": "2:3",
+          "name": "test-frame",
+          "type": "FRAME",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#123456"
+            }
+          ],
+          "strokes": []
+        },
+        {
+          "id": "2:4",
+          "name": "key/=",
+          "type": "RECTANGLE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#f54e00"
+            }
+          ],
+          "strokes": [],
+          "cornerRadius": 9999
+        }
+      ]
+    }
+  ]
+}

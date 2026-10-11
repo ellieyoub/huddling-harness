@@ -1,0 +1,64 @@
+{
+  "page": "P4-screens",
+  "frames": [
+    {
+      "id": "1:1",
+      "name": "S2-final",
+      "width": 390,
+      "height": 844,
+      "nodes": [
+        {
+          "id": "1:1",
+          "name": "S2-final",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#f7f7f4"
+            }
+          ]
+        },
+        {
+          "id": "1:2",
+          "name": "receipt/total",
+          "type": "TEXT",
+          "characters": "TOTAL ₩34,500",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ],
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ]
+        },
+        {
+          "id": "1:3",
+          "name": "receipt/cut-line",
+          "type": "LINE",
+          "strokes": [
+            {
+              "type": "SOLID",
+              "hex": "#cfcdc4"
+            }
+          ]
+        },
+        {
+          "id": "1:9",
+          "name": "receipt/btn",
+          "type": "TEXT",
+          "characters": "삭제",
+          "fontFamilies": [
+            "Pretendard"
+          ],
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

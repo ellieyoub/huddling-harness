@@ -1,0 +1,8 @@
+{
+  "desc": "영수증에 수정·삭제 없음",
+  "gate": "G5",
+  "workdir": "S2",
+  "args": [],
+  "pass": true,
+  "return_to": null
+}

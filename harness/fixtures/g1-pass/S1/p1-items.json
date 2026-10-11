@@ -1,0 +1,20 @@
+[
+  {
+    "source_url": "https://www.uibowl.io/ui/1",
+    "story": "U1",
+    "kind": "입력 방식",
+    "content": "키패드 위에 물품명 입력줄"
+  },
+  {
+    "source_url": "https://www.uibowl.io/ui/2",
+    "story": "U3",
+    "kind": "영수증 표현",
+    "content": "점선 절취선"
+  },
+  {
+    "source_url": "https://www.uibowl.io/ui/3",
+    "story": "U5",
+    "kind": "아카이브",
+    "content": "주별 합계 헤더"
+  }
+]

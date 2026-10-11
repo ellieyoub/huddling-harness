@@ -1,0 +1,11 @@
+{
+  "desc": "Figma 연결 시험: TEST 페이지의 위반 색을 잡음",
+  "gate": "G5",
+  "workdir": "TEST",
+  "args": [
+    "--page",
+    "TEST"
+  ],
+  "pass": false,
+  "return_to": "P4"
+}

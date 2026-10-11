@@ -1,0 +1,23 @@
+{
+  "page": "TEST",
+  "frames": [
+    {
+      "id": "9:1",
+      "name": "anything",
+      "width": 390,
+      "height": 844,
+      "nodes": [
+        {
+          "id": "1:1",
+          "name": "box",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#123456"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

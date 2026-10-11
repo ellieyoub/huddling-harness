@@ -1,0 +1,8 @@
+{
+  "desc": "## 금지 확인 없음",
+  "gate": "G2",
+  "workdir": "S1",
+  "args": [],
+  "pass": false,
+  "return_to": "P2"
+}

@@ -1,0 +1,8 @@
+{
+  "desc": "제목 4개 모두 있음",
+  "gate": "G2",
+  "workdir": "S1",
+  "args": [],
+  "pass": true,
+  "return_to": null
+}

@@ -1,0 +1,8 @@
+{
+  "desc": "승인 + 발화 원문",
+  "gate": "G3",
+  "workdir": "S1",
+  "args": [],
+  "pass": true,
+  "return_to": null
+}

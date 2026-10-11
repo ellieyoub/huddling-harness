@@ -1,0 +1,97 @@
+{
+  "page": "P4-screens",
+  "frames": [
+    {
+      "id": "1:1",
+      "name": "S1-final",
+      "width": 390,
+      "height": 844,
+      "nodes": [
+        {
+          "id": "1:1",
+          "name": "S1-final",
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#f7f7f4"
+            }
+          ],
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 24,
+          "paddingBottom": 24,
+          "itemSpacing": 0
+        },
+        {
+          "id": "1:2",
+          "name": "input/item",
+          "type": "TEXT",
+          "characters": "물품명",
+          "fontFamilies": [
+            "Pretendard"
+          ],
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ]
+        },
+        {
+          "id": "1:3",
+          "name": "input/amount",
+          "type": "TEXT",
+          "characters": "₩12,000",
+          "fontFamilies": [
+            "JetBrains Mono"
+          ],
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#26251e"
+            }
+          ]
+        },
+        {
+          "id": "1:4",
+          "name": "key/=",
+          "type": "FRAME",
+          "cornerRadius": 9999,
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#f54e00"
+            }
+          ]
+        },
+        {
+          "id": "1:5",
+          "name": "key/7",
+          "type": "FRAME",
+          "cornerRadius": 9999,
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#e6e5e0"
+            }
+          ]
+        },
+        {
+          "id": "1:9",
+          "name": "label",
+          "type": "TEXT",
+          "characters": "오늘",
+          "fontFamilies": [
+            "Inter"
+          ],
+          "fills": [
+            {
+              "type": "SOLID",
+              "hex": "#123456"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

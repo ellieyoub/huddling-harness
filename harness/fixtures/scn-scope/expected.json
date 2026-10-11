@@ -1,0 +1,8 @@
+{
+  "desc": "P1 중에 p2-spec.md가 바뀜 → 범위 위반",
+  "gate": "G1",
+  "workdir": "S1",
+  "args": [],
+  "pass": false,
+  "return_to": "P1"
+}

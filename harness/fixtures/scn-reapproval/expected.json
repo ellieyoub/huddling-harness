@@ -1,0 +1,8 @@
+{
+  "desc": "P3 복귀로 승인 파일이 _archive로 옮겨짐 → 재승인 전 G3 실패",
+  "gate": "G3",
+  "workdir": "S1",
+  "args": [],
+  "pass": false,
+  "return_to": "P3"
+}

@@ -1,0 +1,8 @@
+{
+  "desc": "input/* 2개, 팝업 없음",
+  "gate": "G5",
+  "workdir": "S1",
+  "args": [],
+  "pass": true,
+  "return_to": null
+}

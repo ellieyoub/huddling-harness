@@ -1,0 +1,8 @@
+{
+  "desc": "승인 파일 없음",
+  "gate": "G3",
+  "workdir": "S1",
+  "args": [],
+  "pass": false,
+  "return_to": "P3"
+}

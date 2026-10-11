@@ -1,0 +1,8 @@
+{
+  "desc": "레퍼런스 4장",
+  "gate": "G1",
+  "workdir": "S1",
+  "args": [],
+  "pass": false,
+  "return_to": "P1"
+}

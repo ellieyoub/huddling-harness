@@ -1,0 +1,8 @@
+{
+  "desc": "S3에는 input 레이어가 없어도 N1 미적용으로 통과",
+  "gate": "G5",
+  "workdir": "S3",
+  "args": [],
+  "pass": true,
+  "return_to": null
+}
